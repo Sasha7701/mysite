@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 25px;
+    margin: 0px;
+    padding: 0px;
+    color: #f7f4f4;
+    font-weight: 550; 
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  background-color: darkgrey;
+  display: table;
+}
+
+div.gallery img {
+    width: 450px;
+    height: 300px;
+}
+
+.responsive {
+  display: inline-block;
+  margin: 20px 30px 20px 30px;
+}
+
+
+/*.nav{
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  border-bottom: 3px solid #038e03;
+  position: fixed;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.menu > li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    margin: 5px;
+    
+}
+
+li a:hover{
+    background-color: #038e03;
+    padding: 28px 5px 28px 5px;
+    
+}
+
+li > a{
+  color: #b5b2b2;
+}
+
+.menu {
+   float: right;
+   margin-top: 18px;
+   margin-right: 20px;
+}
+*/
+/*.stack {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+*/
+
+.main-portfolio {
+  margin-top: 0px;
+}
+
+
+h1{
+	margin: 18px 0px 0px 35px;
+   display: inline-block;
+   color: #b5b2b2;
+    font-size: 30px;
+}
+.stack, .main-portfolio, .contact-me {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.contact-me {
+  margin: 0;
+}
+
+.competences {
+  color: white;
+  font-weight: 550;
+  letter-spacing: 0.5px; 
+  text-align: center;
+}
+
+/*.stack{*/
+	/*margin: 20px;*/
+/*}*/
+
+#about{
+  background-color: #808080;
+  height: 450px;
+  width: calc(100% - 60px); 
+  margin: auto;
+}
+
+
+.about-me {
+  display: block;
+  padding: 50px;
+  width: 70%;
+  margin: auto;
+}
+
+
+/*.my-img{
+	border-radius: 50%;
+  box-shadow: 1px 2px grey, 0 0 25px black, 0 0 5px black;
+}
+*/
+#portfolio{
+	background-color: #9c9c9c;
+  width: calc(100% - 60px); 
+  margin: auto;
+  padding: 50px;
+
+}
+
+/*.placeholder{
+   width: 100%;
+   height: 250px;
+   border: 2px #d2d0d0 ridge;
+  
+  }*/
+
+#js{
+  background-color: tomato;
+}
+
+hr{
+   border-top-width: 2px;
+   width: 400px;
+   margin: 10px auto;
+}
+
+#contact{
+  padding: 30px 10px;
+  background-color: gray;
+  height: 300px;
+  width: calc(100% - 60px); 
+  margin: auto;
+  display: grid;
+}
+
+
+
+
+input {
+    background-color: gray;
+    border-bottom: 1px solid #9a9494;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 5px;
+    /*margin-top: 5px; */
+    text-align: left;
+    transition: opacity 0.4s;
+    height: auto;
+}
+  
+
+
+  .form-info {
+  margin-left: 35px;
+  float: left;
+  font-weight: 300px;
+  font-size: 20px;
+  line-height: 45px;
+  color: #565656; 
+}
+  
+#message {
+  display: block;
+  max-width: 250px;
+  max-height: 100px; 
+  border-bottom: 1px solid #9a9494;
+  background-color: gray;
+  padding: 0;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  font-size: 1.5em;
+}
+
+ button[type='submit'] {
+    color: white;
+    background: #a9a9a9;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    /*margin-top: 0;
+    margin-bottom: 0;*/
+    line-height: 35px;
+    padding: 0 30px 0px;
+    margin-top: 20px;
+}
+
+button:hover[type='submit'] {
+    background-color: #908e8e;
+    transition: background 0.1s;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  border-top: 3px solid #038e03;
+}
+
+/*.icon1{
+  width: 45px;
+  float: right;
+  margin: 20px 45px 15px 15px;
+  border-radius: 25%;
+}*/
+
+.icons {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.icon2 {
+  width: 45px;
+  float: left;
+  margin: 20px;
+  /*margin-left: 12px;*/
+  /*margin-right: 0px;*/
+  border-radius: 25%;
+}
+
+.icon3 {
+  width: 50px;
+  float: left;
+  margin: 17px;
+}
+
+.icon4 {
+  border-radius: 25%;
+  width: 60px;
+  float: left;
+  margin: 17px;
+}
+
+
+@media screen and (max-width: 850px) {
+  #about {
+   height: auto;
+   }
+  }
+
+ @media screen and (max-width: 620px) {
+   hr {
+   display: none;
+   }
+  }
+
+@media screen and (max-width: 620px) {
+   .about-me {
+   padding: 5px;
+   }
+  }
+
+  @media screen and (max-width: 620px) {
+   .responsive, .form-info {
+   margin: 5px;
+   }
+  }
