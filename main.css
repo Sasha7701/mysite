@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     color: #f7f4f4;
-    font-weight: 550; 
+    font-weight: 550;
     letter-spacing: 0.5px;
     text-align: center;
 }
@@ -44,13 +44,13 @@ div.gallery img {
     list-style: none;
     font-size: 20px;
     margin: 5px;
-    
+
 }
 
 li a:hover{
     background-color: #038e03;
     padding: 28px 5px 28px 5px;
-    
+
 }
 
 li > a{
@@ -98,7 +98,7 @@ h1{
 .competences {
   color: white;
   font-weight: 550;
-  letter-spacing: 0.5px; 
+  letter-spacing: 0.5px;
   text-align: center;
 }
 
@@ -109,7 +109,7 @@ h1{
 #about{
   background-color: #808080;
   height: 450px;
-  width: calc(100% - 60px); 
+  width: calc(100% - 60px);
   margin: auto;
 }
 
@@ -129,7 +129,7 @@ h1{
 */
 #portfolio{
 	background-color: #9c9c9c;
-  width: calc(100% - 60px); 
+  width: calc(100% - 60px);
   margin: auto;
   padding: 50px;
 
@@ -139,7 +139,7 @@ h1{
    width: 100%;
    height: 250px;
    border: 2px #d2d0d0 ridge;
-  
+
   }*/
 
 #js{
@@ -156,7 +156,7 @@ hr{
   padding: 30px 10px;
   background-color: gray;
   height: 300px;
-  width: calc(100% - 60px); 
+  width: calc(100% - 60px);
   margin: auto;
   display: grid;
 }
@@ -176,7 +176,7 @@ input {
     transition: opacity 0.4s;
     height: auto;
 }
-  
+
 
 
   .form-info {
@@ -185,13 +185,13 @@ input {
   font-weight: 300px;
   font-size: 20px;
   line-height: 45px;
-  color: #565656; 
+  color: #565656;
 }
-  
+
 #message {
   display: block;
   max-width: 250px;
-  max-height: 100px; 
+  max-height: 100px;
   border-bottom: 1px solid #9a9494;
   background-color: gray;
   padding: 0;
@@ -263,6 +263,15 @@ footer{
   margin: 17px;
 }
 
+a[href^="tel:"] {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
 
 @media screen and (max-width: 850px) {
   #about {
